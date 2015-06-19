@@ -6,4 +6,5 @@
 //  Copyright (c) 2015年 Limbate. All rights reserved.
 //
 
+#import "RushHandlerProtocol.h"
 #import "RushHandlerMap.h"

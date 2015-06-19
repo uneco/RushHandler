@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Limbate All rights reserved.
 //
 
-#import "Protocol.h"
+#import "RushHandlerProtocol.h"
 #import "RushHandlerMap.h"
 #import <objc/runtime.h>
 

@@ -42,7 +42,7 @@
 		AE257DDC1B343F8600201C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE257DE71B343FAD00201C68 /* RushHandlerMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RushHandlerMap.h; sourceTree = "<group>"; };
 		AE257DE81B343FAD00201C68 /* RushHandlerMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RushHandlerMap.m; sourceTree = "<group>"; };
-		AE257DE91B343FAD00201C68 /* Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Protocol.h; path = Classes/Protocol.h; sourceTree = "<group>"; };
+		AE257DE91B343FAD00201C68 /* RushHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RushHandlerProtocol.h; path = Classes/RushHandlerProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		AE257DC21B343F8600201C68 = {
 			isa = PBXGroup;
 			children = (
-				AE257DE91B343FAD00201C68 /* Protocol.h */,
+				AE257DE91B343FAD00201C68 /* RushHandlerProtocol.h */,
 				AE257DE51B343FAD00201C68 /* Classes */,
 				AE257DCD1B343F8600201C68 /* RushHandler */,
 				AE257DDA1B343F8600201C68 /* RushHandlerTests */,
@@ -374,6 +374,7 @@
 				AE257DE11B343F8600201C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE257DE21B343F8600201C68 /* Build configuration list for PBXNativeTarget "RushHandlerTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +383,7 @@
 				AE257DE41B343F8600201C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
